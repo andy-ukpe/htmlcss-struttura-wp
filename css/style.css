@@ -1,0 +1,49 @@
+/*regole generali*/
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*fine regole generali*/
+
+/*header*/
+header{
+  height: 120px;
+  background: yellow;
+}
+/*fine header*/
+
+/*main*/
+main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.colonna{
+  float: left;
+  margin:1%;
+}
+.sinistra{
+  background: pink;
+  width: 20%;
+  height: 200px;
+}
+.centrale{
+  background: purple;
+  width: 53%;
+  height: 330px;
+}
+.destra{
+  background: pink;
+  width: 20%;
+  height: 200px;
+}
+/*fine main*/
+
+/*footer*/
+.footer{
+  background: lightblue;
+  height: 80px;
+  padding-bottom: 0;
+}
+/*fine footer*/
